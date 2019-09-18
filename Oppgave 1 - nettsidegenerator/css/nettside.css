@@ -1,0 +1,81 @@
+body {
+    background-color: lightblue;
+    max-width: 770px;
+
+}
+
+
+/*Boksene */
+#main-page {
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    overflow: hidden;
+    float: left;
+    max-width: 770px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/*Bildene*/
+#images {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+/*Hvert enkelt boks*/
+article {
+    position: relative;
+    height: 350px;
+    width: 200px;
+    display: inline-block;
+    background-color: #fff;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*Knappene*/
+#button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 2px 20px black;
+    padding: 1px 3px;
+    width: 80px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*Overskrift til artiklene*/
+h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Teksten i artikkelen*/
+p {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*Overskriften*/
+h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}

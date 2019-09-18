@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brainstorming</title>
+    <link href="css/meyersreset.css" rel="stylesheet" type="text/css">
+    <link href="css/treningsapp.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!--Brainstorminapp-->
+    <div id="main-page-container-treningsmat">
+
+        <header>
+            <h1>Brainstorming - hva vil du spise som treningsmat?</h1>
+        </header>
+
+        <main>
+
+            <section>
+                <label>Ide</label>
+                <input id="idea-txt" type="text">
+                <input id="add-idea-btn" type="button" value="Legg til ide">
+            </section>
+
+            <section>
+                <ul id="ideas-ul"></ul>
+            </section>
+        </main>
+
+        <!-- Legge en plan for treningen-->
+    </div>
+
+    <div id="main-page-container-treningsplan">
+        <header>
+            <h1>Legg til treningsplan</h1>
+        </header>
+
+        <main>
+            <section>
+                <label>Treningsplan</label>
+                <input id="plan-txt" type="text">
+                <input id="add-plan-btn" type="button" value="Legg til treningsplan">
+            </section>
+
+            <section>
+                <ul id=plan-ul></ul>
+            </section>
+        </main>
+    </div>
+
+    <!--BMI KALKULATOR-->
+    <div id="main-page-container-bmi">
+        <header>
+            <h1>Sjekk din BMI</h1>
+        </header>
+
+        <main>
+            <section>
+                <p>Vekt: <input type="text" id="txtVekt" /><br />
+                    Høyde: <input type="text" id="txtHoyde" /></p>
+                <button id="btnBeregn">Beregn</button>
+                <p id="resultat"></p>
+                <p>Oppgi høyde som desimaltall, eks: 1.43</p>
+            </section>
+
+        </main>
+    </div>
+
+    <!--JAVASCRIPT-->
+    <script src="script/treningsapp.js"></script>
+</body>
+
+</html>

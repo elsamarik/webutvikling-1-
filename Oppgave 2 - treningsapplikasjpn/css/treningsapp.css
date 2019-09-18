@@ -1,0 +1,49 @@
+        #idea-txt {
+            /*border: none;*/
+            outline: none;
+        }
+
+        #main-page-container-treningsmat {
+            margin-top: 10px;
+            background-color: antiquewhite;
+            width: 450px;
+            height: 300px;
+
+        }
+
+        h1 {
+            font-size: 20px;
+            font-family: arial;
+        }
+
+        label {
+            font-family: arial;
+        }
+
+        input {
+            font-family: arial;
+        }
+
+
+        #main-page-container-treningsplan {
+            margin-top: 10px;
+            background-color: pink;
+            width: 450px;
+            height: 300px;
+        }
+
+        li {
+            font-family: arial;
+        }
+
+        #main-page-container-bmi {
+            margin-top: 10px;
+            background-color: aquamarine;
+            width: 450px;
+            height: 300px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-family: arial;
+        }
